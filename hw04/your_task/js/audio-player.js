@@ -140,3 +140,4 @@ const AudioPlayer = (selector, audioFile) => {
     }
     return this;
 };
+
