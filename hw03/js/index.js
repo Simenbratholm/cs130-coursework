@@ -63,7 +63,6 @@ const showNext = (ev) => {
     else {
         currentIndex += 1;
     }
-   
     document.querySelector(".featured_image").style.backgroundImage= imageElements[currentIndex].style.backgroundImage; 
  };   
     

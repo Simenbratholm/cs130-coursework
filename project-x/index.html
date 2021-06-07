@@ -57,67 +57,61 @@
 
    <!-- Restaurant section -->
    <div class="main" id="restaurants">
-     <h1>ALL RESTAURANTS</h1>
-     <div class="main__wrapper">
-       <div class="main__card">
-         <!-- <h2>Google maps 1</h2> -->
-         <!-- <p>xxx</p> -->
-         <div class="main__btn"><button>Order</button></div>
-       </div>
-       <div class="main__card">
-          <!-- <h2>Google maps 2</h2> -->
-          <!-- <p>xxx</p> -->
-          <div class="main__btn"><button>order</button></div>
-       </div>
-       <div class="main__card">
-          <!-- <h2>Google maps 3</h2> -->
-          <!-- <p>xxx</p> -->
-          <div class="main__btn"><button>order</button></div>
-       </div>
-       <div class="main__card">
-          <!-- <h2>Google maps 4</h2> -->
-          <!-- <p>xxx</p> -->
-          <div class="main__btn"><button>order</button></div>
-       </div>
+     <div class="carousel">
+       <button class="carousel__button previous" id="previous"></button>
+       <div class="carousel__images">
+          <img class="active" src="images/chickenshack.jpg" alt="">
+          <img class="img__todorki" src="images/todorki_img.jpg" alt=""> 
+          <img class="img__10q" src="images/10q.jpg" alt="">
+          <img class="img__pizza" src="images/pizza.png" alt="">
+          <img class="img__tomate" src="images/Tomate.jpg" alt="">
+        </div>
+        <button class="carousel__button next" id="next"></button>
      </div>
-   </div>
+    <!-- </div> -->
+    
+     <h1>BEST 5 RESTAURANTS IN EVANSTON</h1>
+       <div class="main__card">
+         <h2>1: Chicken Shack</h2>
+        
+          <h2>2: Todoroki</h2>
+          
+          <h2>3: 10q</h2>
+        
+          <h2>4: lou malnati's</h2>
 
+          <h2>5: Tomate Fresh Kitchen</h2>
+         
+        </div>
 
+<div>
    <!-- Maps section -->
 <div class="maps" id="maps">
-    <div class="maps__container">
+  <div class="maps__container">
       <div class="maps__image--container">
         <div class="maps__image--card">
-         <img src="https://openaire.com/wp-content/uploads/2018/09/OpenAire_Commercial_Restaurant_Riverpoint_Chicago_1067x800-3-1024x683.jpg" alt="">
+         <img src="images/Evanston_map.png" alt="">
        </div>
       </div>
       <div class="maps__content">
-        <!-- <h1>What do we do?</h1> -->
-        <!-- <h2>Here will the different restaurants be</h2> -->
-        <!-- <p>Restaurants</p> -->
-        <button class="maps_btn"><a href="#">Google Maps</a></button>
+        <button class="maps_btn"><a href="#">Spent 5 hours trying to implement a google maps API section here. My API key doesn't work and I ended up with a screenshot of the places i wanted to put in. </a></button>
       </div>
     </div>
-  </div>
+</div>
 
    <!-- Sign Up Section -->
    <div class="signup" id="sign-up">
       <div class="signup__container">
         <div class="signup__content">
-          <!-- <h1>/h1> -->
-          <!-- <h2>Sign Up Today</h2> -->
           <p>Sign Up For Our Newsletter</p>
           <button class="signup__btn"><a href="#">Sign Up</a></button>
         </div>
         <div class="signup__img--container">
           <div class="signup__img--card" id="card-2">
-            <!-- <i class="fas fa-users"></i> -->
           </div>
         </div>
       </div>
    </div>
-
-   <!-- Footer Section for later -->
 
      <script src="project-x.js"></script>
   </body>
